@@ -10,4 +10,4 @@ services:
       CHOKIDAR_USEPOLLING: "true"
 
 # To Create Build  (command) docker-compose -f .\docker-compose.prod.yml build
-# to run build (command) docker run -p 80:80 react-app --name app-prod
+# to run build (command) docker run -p 80:80 --name react-app app-prod
